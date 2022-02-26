@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  margin: 0 auto;
+  background: var(--lavender);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -12,3 +13,47 @@ code {
     monospace;
 }
 
+:root {
+  --blue: #22577A;
+  --green: #59C9A5;
+  --lavender: #D9DBF1;
+  --yellow: #F8E16C;
+  --coral: #FB8F67
+}
+
+header {
+  justify-content: space-between;
+  background: var(--blue);
+}
+
+header h1 {
+  margin: 10px;
+  padding: 5px;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: var(--yellow)
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  margin: 10px;
+  padding: 5px;
+  font-size: 30px;
+  text-decoration: none;
+  color: var(--coral);
+  font-weight: 700;
+}
+
+li a:hover {
+  color: var(--green);
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}

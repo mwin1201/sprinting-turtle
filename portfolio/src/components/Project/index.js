@@ -9,14 +9,14 @@ function Project() {
                 name: "Rate My Bootcamp",
                 technology: ["javascript", "MySQL", "Sequelize", "Handlebars", "Express.js", "Node.js", "fullstack"],
                 description: "An interactive website allowing users to sign-up and log-in to leave reviews for bootcamps or instructors.",
-                image: "../../assets/img/stars.jpg",
+                image: require("../../assets/img/stars.jpg"),
                 deployed: "https://whispering-scrubland-52233.herokuapp.com/"
             },
             {
                 name: "Note Taker Application",
                 technology: ["heroku", "Node.js", "javascript"],
                 description: "This application allows for users to take notes in a well-designed frontend web page, save those notes, reference them later, and delete them when they are no longer needed. The application utilizes Node and Express to handle the server calls.",
-                image: "../../assets/img/geometry-image.jpg",
+                image: require("../../assets/img/geometry-image.jpg"),
                 deployed: "https://calm-mesa-86482.herokuapp.com/"
             }
         ]
