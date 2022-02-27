@@ -21,6 +21,7 @@ code {
   --coral: #FB8F67
 }
 
+
 header {
   justify-content: space-between;
   background: var(--blue);
@@ -103,6 +104,33 @@ nav li a:hover {
 .card-title {
   font-size: 25px;
   color: var(--blue);
+}
+
+.resume {
+  display: flex;
+  justify-content: space-around;
+}
+
+.frontend div ol li {
+  font: 45px;
+  color: var(--blue);
+}
+
+.resume h3 {
+  font-size: 30px;
+  color: var(--green);
+  font-weight: 700;
+
+}
+
+#contact-form div label {
+  font-size: 30px;
+  color: var(--blue);
+}
+
+#contact-form div input {
+  margin-left: 15px;
+  
 }
 
 footer {
