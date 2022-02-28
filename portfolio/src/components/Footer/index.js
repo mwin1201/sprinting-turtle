@@ -9,8 +9,8 @@ function Footer() {
                 &copy; Max Winter {new Date().getFullYear()}
             </h3>
             <div className="media-icons">
-                <a href="https://github.com/mwin1201" target="_blank"><FontAwesomeIcon icon={faGithub} size="4x" /></a>
-                <a href="https://www.linkedin.com/in/maxwell-winter/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="4x" /></a>
+                <a className="github" href="https://github.com/mwin1201" target="_blank"><FontAwesomeIcon icon={faGithub} color="white" size="4x" /></a>
+                <a className="linkedin" href="https://www.linkedin.com/in/maxwell-winter/" target="_blank"><FontAwesomeIcon icon={faLinkedin} color="white" size="4x" /></a>
             </div>
         </footer>
     );
