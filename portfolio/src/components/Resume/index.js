@@ -3,12 +3,6 @@ import React from "react";
 function Resume() {
     return(
         <section className="resume">
-            <div className="download-link">
-                <h3>Downloadable Resume Document</h3>
-                <a href={require("../../assets/docs/2022_Resume.docx")} download>
-                    DOWNLOAD NOW
-                </a>
-            </div>
             <div className="frontend">
                 <h3>Frontend Proficiencies:</h3>
                 <ol>
@@ -35,7 +29,7 @@ function Resume() {
                 </ol>
             </div>
             <div className="other">
-                <h3>Other:</h3>
+                <h3>Additional Proficiencies:</h3>
                 <ul>
                     <li>PWAs</li>
                     <li>bcrypt</li>
@@ -44,6 +38,12 @@ function Resume() {
                     <li>Jest</li>
                     <li>Inquirer</li>
                 </ul>
+            </div>
+            <div className="download-link">
+                <h3>Downloadable Resume Document</h3>
+                <a href={require("../../assets/docs/2022_Resume.docx")} download>
+                    DOWNLOAD NOW
+                </a>
             </div>
         </section>
     );

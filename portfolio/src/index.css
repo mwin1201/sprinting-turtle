@@ -208,19 +208,73 @@ nav li a:hover {
 
 .resume {
   display: flex;
-  justify-content: space-around;
+  flex-flow: column wrap;
+  align-items: center;
 }
 
-.frontend div ol li {
-  font: 45px;
+.frontend ol {
+  border: 5px solid var(--blue);
+}
+
+.backend ol {
+  border: 5px solid var(--coral);
+}
+
+.other ul {
+  border: 5px solid var(--yellow);
+}
+
+.download-link {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.download-link a {
+  text-decoration: none;
+  background-color: var(--blue);
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: var(--coral);
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 4px 0 black;
+}
+
+.download-link a:hover {
+  box-shadow: 0 8px 8px 0 black;
+}
+
+li {
+  font-size: 20px;
   color: var(--blue);
 }
 
-.resume h3 {
+.resume > div h3 {
   font-size: 30px;
-  color: var(--green);
   font-weight: 700;
+  color: var(--green);
+}
 
+.contact {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+#contact-form {
+  width: 50%;
+  background-color: var(--green);
+  margin-bottom: 30px;
+  border-radius: 12px;
+}
+
+#contact-form div {
+  display: flex;
+  flex-flow: column wrap;
+  padding: 10px;
 }
 
 #contact-form div label {
@@ -228,9 +282,26 @@ nav li a:hover {
   color: var(--blue);
 }
 
-#contact-form div input {
-  margin-left: 15px;
-  
+#contact-form div input,textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#contact-form button {
+  width: 100%;
+  background-color: var(--blue);
+  color: var(--coral);
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 20px;
 }
 
 footer {
