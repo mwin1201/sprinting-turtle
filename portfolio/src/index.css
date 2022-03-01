@@ -194,16 +194,35 @@ nav li a:hover {
   text-align: left;
 }
 
-.card-btn {
-  background-color: var(--yellow);
-  padding: 10px;
-  border-radius: 12px;
+.card-btns {
+  display: flex;
+  justify-content: center;
 }
 
-.card-btn a {
+.deploy-btn {
+  background-color: var(--yellow);
+  margin-right: 5px;
+  padding: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.repo-btn {
+  background-color: var(--coral);
+  padding: 10px;
+  margin-left: 5px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.repo-btn:hover,.deploy-btn:hover {
+  background-color: var(--lavender);
+}
+
+.card-btns a {
   text-decoration: none;
   color: var(--blue);
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .resume {
