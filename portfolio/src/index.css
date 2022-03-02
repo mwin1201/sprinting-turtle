@@ -95,10 +95,14 @@ nav li span:hover {
 .hero-text button {
   background-color: var(--yellow);
   font-size: 45px;
-  color: var(--blue);
   padding: 10px;
   border-radius: 12px;
   transition-duration: 0.3s;
+}
+
+.hero-text button a {
+  text-decoration: none;
+  color: var(--blue);
 }
 
 .hero-text button:hover {
