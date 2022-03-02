@@ -4,7 +4,7 @@ function Resume() {
     return(
         <section className="resume">
             <div className="frontend">
-                <h3>Frontend Proficiencies:</h3>
+                <h3>Frontend Proficiencies</h3>
                 <ol>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -17,7 +17,7 @@ function Resume() {
                 </ol>
             </div>
             <div className="backend">
-                <h3>Backend Proficiencies:</h3>
+                <h3>Backend Proficiencies</h3>
                 <ol>
                     <li>MySQL</li>
                     <li>MongoDB</li>
@@ -29,7 +29,7 @@ function Resume() {
                 </ol>
             </div>
             <div className="other">
-                <h3>Additional Proficiencies:</h3>
+                <h3>Additional Proficiencies</h3>
                 <ul>
                     <li>PWAs</li>
                     <li>bcrypt</li>

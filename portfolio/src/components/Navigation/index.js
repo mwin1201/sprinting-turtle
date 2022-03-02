@@ -2,38 +2,38 @@ import React from "react";
 
 function Nav({ currentPage, handlePageChange }) {
     return(
-    <ul className="flex-row">
+    <ul>
         <li>
-            <a 
+            <span 
                 onClick={() => handlePageChange("About me")}
                 className={currentPage === "About me" ? "nav-link active" : "nav-link"}
             >
                 About me
-            </a>
+            </span>
         </li>
         <li>
-            <a 
+            <span 
                 onClick={() => handlePageChange("Projects")}
                 className={currentPage === "Projects" ? "nav-link active" : "nav-link"}
             >
                 Portfolio
-            </a>
+            </span>
         </li>
         <li>
-            <a 
+            <span 
                 onClick={() => handlePageChange("Resume")}
                 className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
             >
                 Resume
-            </a>
+            </span>
         </li>
         <li>
-            <a 
+            <span 
                 onClick={() => handlePageChange("Contact")}
                 className={currentPage === "Contact" ? "nav-link active" : "nav-link"}
             >
                 Contact
-            </a>
+            </span>
         </li>
     </ul>
     );
