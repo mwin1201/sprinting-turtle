@@ -4,9 +4,9 @@ import Nav from "../Navigation";
 function Header({ currentPage, handlePageChange }) {
 
     return(
-        <header className="flex-row">
+        <header>
             <h1>
-                <a href="/">Max's Portfolio</a>
+                <a href="/">Max Winter</a>
             </h1>
             <nav>
                 <Nav
