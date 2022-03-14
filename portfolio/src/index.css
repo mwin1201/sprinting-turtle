@@ -195,6 +195,32 @@ nav li span:hover {
   text-align: left;
 }
 
+.tech-title {
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--blue);
+  text-align: center;
+}
+
+.tech {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tech-text {
+  padding: 10px;
+  margin: 5px;
+  font-size: 20px;
+  color: var(--blue);
+  background-color: var(--lavender);
+  border-radius: 10px;
+}
+
+.tech-text:hover {
+  background-color: var(--coral);
+}
+
 .card-btns {
   display: flex;
   justify-content: center;
