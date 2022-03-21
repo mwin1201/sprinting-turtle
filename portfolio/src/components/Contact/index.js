@@ -55,6 +55,10 @@ function Contact() {
                 )}
                 <button type="submit">Submit</button>
             </form>
+            <div className="title">
+                <h2>Personal Email</h2>
+                <p>Feel free to email me at <a href="mailto:max_winter94@outlook.com">max_winter94@outlook.com</a></p>
+            </div>
         </section>
     );
 };

@@ -313,6 +313,12 @@ nav li span:hover {
   align-items: center;
 }
 
+.contact div p {
+  font-size: 30px;
+  color: var(--blue);
+  text-align: center;
+}
+
 #contact-form {
   width: 75%;
   background-color: var(--green);
