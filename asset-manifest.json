@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/sprinting-turtle/static/css/main.bb253628.css",
-    "main.js": "/sprinting-turtle/static/js/main.d37a68f6.js",
+    "main.css": "/sprinting-turtle/static/css/main.66834b41.css",
+    "main.js": "/sprinting-turtle/static/js/main.7d9c22bd.js",
     "static/js/787.1ed0c42c.chunk.js": "/sprinting-turtle/static/js/787.1ed0c42c.chunk.js",
     "static/media/bootcamp.jpg": "/sprinting-turtle/static/media/bootcamp.976c4056af9a4a0fdb2b.jpg",
     "static/media/2022_Resume.docx": "/sprinting-turtle/static/media/2022_Resume.d942bc0c1057c6f8770a.docx",
@@ -13,12 +13,12 @@
     "static/media/tech_blog_new.jpg": "/sprinting-turtle/static/media/tech_blog_new.29f293f55931c706fa06.jpg",
     "static/media/social_media_api.jpg": "/sprinting-turtle/static/media/social_media_api.e89a657a4b6f1f129c31.jpg",
     "index.html": "/sprinting-turtle/index.html",
-    "main.bb253628.css.map": "/sprinting-turtle/static/css/main.bb253628.css.map",
-    "main.d37a68f6.js.map": "/sprinting-turtle/static/js/main.d37a68f6.js.map",
+    "main.66834b41.css.map": "/sprinting-turtle/static/css/main.66834b41.css.map",
+    "main.7d9c22bd.js.map": "/sprinting-turtle/static/js/main.7d9c22bd.js.map",
     "787.1ed0c42c.chunk.js.map": "/sprinting-turtle/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bb253628.css",
-    "static/js/main.d37a68f6.js"
+    "static/css/main.66834b41.css",
+    "static/js/main.7d9c22bd.js"
   ]
 }
