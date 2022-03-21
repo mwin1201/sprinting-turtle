@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/sprinting-turtle/static/css/main.66834b41.css",
-    "main.js": "/sprinting-turtle/static/js/main.7d9c22bd.js",
+    "main.js": "/sprinting-turtle/static/js/main.9200ad6a.js",
     "static/js/787.1ed0c42c.chunk.js": "/sprinting-turtle/static/js/787.1ed0c42c.chunk.js",
     "static/media/bootcamp.jpg": "/sprinting-turtle/static/media/bootcamp.976c4056af9a4a0fdb2b.jpg",
-    "static/media/2022_Resume.docx": "/sprinting-turtle/static/media/2022_Resume.d942bc0c1057c6f8770a.docx",
+    "static/media/2022_Resume_Official.docx": "/sprinting-turtle/static/media/2022_Resume_Official.7c2f3c054d9fa9dfd5a4.docx",
     "static/media/max_picture.jpg": "/sprinting-turtle/static/media/max_picture.257c08cc3419c03818cd.jpg",
     "static/media/hero_large.jpg": "/sprinting-turtle/static/media/hero_large.530c23318db9690fe9f2.jpg",
     "static/media/dinner_movie.jpg": "/sprinting-turtle/static/media/dinner_movie.c084fd5dd8fa40c4d3f4.jpg",
@@ -14,11 +14,11 @@
     "static/media/social_media_api.jpg": "/sprinting-turtle/static/media/social_media_api.e89a657a4b6f1f129c31.jpg",
     "index.html": "/sprinting-turtle/index.html",
     "main.66834b41.css.map": "/sprinting-turtle/static/css/main.66834b41.css.map",
-    "main.7d9c22bd.js.map": "/sprinting-turtle/static/js/main.7d9c22bd.js.map",
+    "main.9200ad6a.js.map": "/sprinting-turtle/static/js/main.9200ad6a.js.map",
     "787.1ed0c42c.chunk.js.map": "/sprinting-turtle/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.66834b41.css",
-    "static/js/main.7d9c22bd.js"
+    "static/js/main.9200ad6a.js"
   ]
 }
