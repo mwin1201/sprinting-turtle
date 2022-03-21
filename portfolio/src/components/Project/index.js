@@ -22,7 +22,7 @@ function Project() {
             {
                 name: "Budget Tracker",
                 technology: ["PWA", "Javascript", "Mongoose", "MongoDB"],
-                description: "This is a progressive web application allowing users to track their budgets even when offline. Users can enter their transactions and valuations quickly into the application and instantly see a visual represenation of the budgetary movements in a graph below.",
+                description: "This is a progressive web application allowing users to track their budgets even when offline. Users can enter their transactions and valuations quickly into the application and instantly see a visual representation of the budgetary movements in a graph below.",
                 image: require("../../assets/img/budget_tracker.jpg"),
                 deployed: "https://damp-fortress-34583.herokuapp.com/",
                 repo: "https://github.com/mwin1201/running-rhinos"

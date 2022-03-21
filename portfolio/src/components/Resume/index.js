@@ -41,7 +41,7 @@ function Resume() {
             </div>
             <div className="download-link">
                 <h3>Downloadable Resume Document</h3>
-                <a href={require("../../assets/docs/2022_Resume.docx")} download>
+                <a href={require("../../assets/docs/2022_Resume_Official.docx")} download>
                     DOWNLOAD NOW
                 </a>
             </div>
