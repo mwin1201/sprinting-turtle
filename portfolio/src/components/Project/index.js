@@ -13,7 +13,7 @@ function Project() {
             },
             {
                 name: "Tempo",
-                technology: ["MERN", "MongoDB", "GraphQL", "Apollo", "faker", "jwt"],
+                technology: ["MERN", "MongoDB", "GraphQL", "Apollo", "faker", "Mongoose", "jsonwebtoken"],
                 description: "Tempo is aimed at connecting bands and musicians together through media sharing. Once logged into the app you can search for other musicians and bands to collaborate with and work on projects together.",
                 image: require("../../assets/img/sign-on-hero.png"),
                 deployed: "https://tempo-musician-search.herokuapp.com/",
