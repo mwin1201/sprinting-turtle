@@ -6,10 +6,18 @@ function Project() {
             {
                 name: "Rate My Bootcamp",
                 technology: ["Javascript", "MySQL", "Sequelize", "Handlebars", "Express.js", "Node.js", "Fullstack"],
-                description: "An interactive website allowing users to sign-up and log-in to leave reviews for bootcamps or instructors.",
+                description: "An interactive website allowing users to sign-up and log-in to leave reviews for bootcamps or instructors. Top instructors and bootcamps from around the country are shown to users on the homepage and users can read genuine feedback about courses and staff.",
                 image: require("../../assets/img/bootcamp.jpg"),
                 deployed: "https://whispering-scrubland-52233.herokuapp.com/",
                 repo: "https://github.com/adairconlin/rate-my-bootcamp"
+            },
+            {
+                name: "Tempo",
+                technology: ["MERN", "MongoDB", "GraphQL", "Apollo", "faker", "jwt"],
+                description: "Tempo is aimed at connecting bands and musicians together through media sharing. Once logged into the app you can search for other musicians and bands to collaborate with and work on projects together.",
+                image: require("../../assets/img/sign-on-hero.png"),
+                deployed: "https://tempo-musician-search.herokuapp.com/",
+                repo: "https://github.com/mwegter95/project-3-tempo"
             },
             {
                 name: "Note Taker Application",
@@ -48,14 +56,6 @@ function Project() {
                 image: require("../../assets/img/tech_blog_new.jpg"),
                 deployed: "https://pacific-island-74047.herokuapp.com/",
                 repo: "https://github.com/mwin1201/Tech-Blog-Dinosaur-Scales"
-            },
-            {
-                name: "Dinner and a Movie",
-                technology: ["Materialize", "JQuery", "Javascript", "API"],
-                description: "Dinner and a Movie is for the everyday person wanting to be independent, make their own meals and relax with some movies.",
-                image: require("../../assets/img/dinner_movie.jpg"),
-                deployed: "https://mwin1201.github.io/Project-1-Dinner-and-a-Movie/",
-                repo: "https://github.com/mwin1201/Project-1-Dinner-and-a-Movie"
             }
         ]
     );
